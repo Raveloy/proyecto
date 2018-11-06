@@ -1,9 +1,9 @@
 <?php
 
-$servername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
-$dbName = "logintest";
+$servername = "mysql-lumat.ciajzop2iybp.sa-east-1.rds.amazonaws.com";
+$dbUsername = "admin";
+$dbPassword = "administracion";
+$dbName = "mysql-lumat";
 
 $conn = mysqli_connect($servername, $dbUsername, $dbPassword, $dbName);
 
